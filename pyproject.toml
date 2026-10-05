@@ -1,0 +1,11 @@
+[project]
+name = "soundnote"
+version = "0.1.0"
+description = "Local audio transcription app with PySide6 and QML"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "PySide6>=6.8,<7",
+    "faster-whisper>=1.1,<2",
+    "pyannote.audio>=4.0,<5",
+]
